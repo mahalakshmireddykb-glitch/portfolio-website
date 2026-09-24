@@ -1,5 +1,89 @@
 /* ===== GOOGLE FONT ===== */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* =========================
+   MOBILE RESPONSIVE
+   ========================= */
+
+@media (max-width: 768px) {
+
+    /* General */
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Container */
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    /* Navigation */
+    nav {
+        padding: 15px 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Headings */
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 21px;
+    }
+
+    /* Sections */
+    section {
+        padding: 50px 20px;
+    }
+
+    /* Images */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Two-column layouts */
+    .row,
+    .about-container,
+    .skills-container,
+    .project-container {
+        flex-direction: column;
+    }
+
+    /* Cards */
+    .card,
+    .project-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Buttons */
+    button,
+    .btn {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+<nav>
+    <div class="logo">Mahalakshmi</div>
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
 
 /* ===== RESET ===== */
 
